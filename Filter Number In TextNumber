@@ -1,8 +1,0 @@
-Dim I As Integer
-Dim Str As String
-Dim tempstr As String
-Str = "73053zkjjlfwf389529hshgjseg" 'Example
-For I = 1 To Len(Str)
-If IsNumeric(Mid$(Str, I, 1)) Then tempstr = tempstr & Mid$(Str, I, 1)
-Next
-msgbox tempstr 'this :)
